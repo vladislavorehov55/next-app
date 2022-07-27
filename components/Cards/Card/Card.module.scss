@@ -1,0 +1,26 @@
+.card {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  flex-basis: 200px;
+  padding: 3px;
+  &Link {
+    text-decoration: none;
+    color: inherit;
+  }
+  &ImageWrap {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+  }
+  &Image {
+    height: 100%;
+  }
+  &Name {
+    text-align: center;
+  }
+  &Description {
+    text-align: center;
+  }
+}

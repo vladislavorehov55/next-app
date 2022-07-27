@@ -1,0 +1,13 @@
+.detailCard {
+  display: flex;
+  &ImageWrap {
+    flex-basis: 50%;
+  }
+  &Image {
+    width: 100%;
+  }
+  &Info {
+    width: 50%;
+    margin-left: 10px;
+  }
+}
